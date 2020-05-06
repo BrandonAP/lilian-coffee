@@ -1,0 +1,284 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////Lilian Coffee theme template made by Brandon A.P//////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css?family=Cambay|Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Cambay', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+    -webkit-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    overflow-x: hidden;
+}
+input, textarea{
+    font-family: 'Cambay', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+}
+
+/*Start navigation bar*/
+
+header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.super-container-float-section{
+    width: 100%;
+    height: 40px;
+    max-width: 1560px;
+    display: flex;
+}
+.super-container-float-section .logo-website-section{
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.super-container-float-section .logo-website-section .svg-brand-website{
+    width: 180px;
+    height: 36px;
+    background-image: url(../../brand-images/logo/svg/lilian-coffee-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.super-container-float-section .burger-toggle-button{
+    display: none;
+}
+
+.super-container-float-section .navigation-container-div{
+    width: 75%;
+    height: 40px;
+    display: flex;
+}
+.navigation-container-div .navigation-bar-navbar-primary{
+    width: 67%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list{
+    display: flex;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list li{
+    list-style: none;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+    padding: 15px 15px;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list .active{
+    opacity: 0.5;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.navigation-container-div .navigation-bar-navbar-secondary{
+    width: 33%;
+    height: 40px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list{
+    float: right;
+    display: flex;
+    margin: 8px 0px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list li{
+    list-style: none;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+    padding: 15px 15px;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list .pd-l-null{
+    padding-left: 0px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list .pd-r-null{
+    padding-right: 0px;
+}
+
+.responsive-social-bar-menu-navigation{
+    display: none;
+}
+
+/*Navigation end*/
+
+
+.menu-header-container-image{
+    width: 100%;
+    height: 590px;
+    background-image: url(../menu-images/cupcakes-690040_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-y: 30%;
+    background-size: cover;
+}
+.menu-header-container-image .bg-transparent-container{
+    width: 100%;
+    height: 590px;
+    position: absolute;
+}
+.bg-transparent-container .bg-transparent-title{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 280px;
+}
+.bg-transparent-container .bg-transparent-title h1{
+    font-size: 58px;
+    color: #ffffff;
+}
+
+.all-desserts-grid-section-super-container{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+    min-height: 2500px;
+    margin: 80px auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.all-desserts-grid-section-super-container .dessert-grid-element .dessert-info-container-first{
+    width: 100%;
+    height: 400px;
+}
+.all-desserts-grid-section-super-container .dessert-grid-element .dessert-info-container-first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.all-desserts-grid-section-super-container .dessert-grid-element .dessert-info-container-second{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.all-desserts-grid-section-super-container .dessert-grid-element .dessert-info-container-second h3{
+    font-weight: 400;
+    font-size: 21px;
+    padding: 15px 0px;
+}
+
+
+
+/*Footer start styles*/
+
+footer{
+    width: 100%;
+    height: auto;
+    min-height: 410px;
+    position: absolute;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super-container-footer-items{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    display: block;
+}
+.super-container-footer-items .lilian-coffee-icon-heart-svg-section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.super-container-footer-items .lilian-coffee-icon-heart-svg-section a{
+    width: 50px;
+    height: 50px;
+    background-image: url(../../brand-images/icon/svg/lilian-coffee-icon-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.super-container-footer-items .social-bar-link-items{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list{
+    display: flex;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list li{
+    list-style: none;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list a{
+    text-decoration: none;
+    font-size: 40px;
+    padding: 0px 22px;
+    transition: 0.4s ease;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list .pd-l-null{
+    padding-left: 0px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list .pd-r-null{
+    padding-right: 0px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list a:hover{
+    opacity: 0.4;
+    transition: 0.4s ease;
+}
+
+.super-container-footer-items .lilian-coffee-copyright-website{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super-container-footer-items .lilian-coffee-copyright-website .footer-option-list li{
+    list-style: none;
+}
+.super-container-footer-items .lilian-coffee-copyright-website .footer-option-list h4{
+    color: #ffffff;
+    font-weight: 100;
+    cursor: default;
+}
+
+/*Footer end*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////Copyright 2020 Brandon A.P. Todos los derechos reservados////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/

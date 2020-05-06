@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    overflow: hidden;
+}
+.shop-svg-background-image-redirect-to-home{
+    width: 80vh;
+    height: 80vh;
+    background-image: url(../media/bg-images/lilian-shop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 250px) and (max-width: 660px){
+    html, body{
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding-top: 22%;
+        overflow: hidden;
+    }
+    .shop-svg-background-image-redirect-to-home{
+        width: 300px;
+        height: 300px;
+    }
+}

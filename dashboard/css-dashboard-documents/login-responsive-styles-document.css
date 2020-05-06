@@ -1,0 +1,471 @@
+@media screen and (min-width: 980px) and (max-width: 1520px){
+    .all-navigation-sidebar{
+        max-width: 35%;
+        right: -35%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary{
+        width: 100%;
+        max-width: 74%;
+        height: auto;
+        float: left;
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary li{
+        list-style: none;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary a:hover{
+        color: #5047d1;
+        transition: 0.3s ease;
+    }
+    
+    .all-navigation-sidebar .navigation-bar-navbar-secondary{
+        width: 100%;
+        max-width: 74%;
+        height: auto;
+        float: left;
+        margin-left: 5%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary ul{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 70px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        font-size: 16px;
+        background: #ffffff;
+        border: 1px solid #1a1a1a;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .login-footer-page{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: auto;
+    }
+}
+
+
+@media screen and (min-width: 660px) and (max-width: 980px){
+    .header-login{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .gloabal-navigation-container{
+        width: 100%;
+        max-width: 90%;
+        height: 40px;
+    }
+    .gloabal-navigation-container .logo-nav-section{
+        width: 100%;
+        height: 40px;
+    }
+    .gloabal-navigation-container .logo-nav-section .isologo-svg-image{
+        width: 200px;
+        height: 40px;
+        background-size: 80%;
+    }
+    .burger-login-button{
+        position: absolute;
+        right: 5%;
+        width: 28px;
+        height: 28px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        z-index: 70;
+        cursor: pointer;
+    }
+    .burger-login-button .icon-container{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+    }
+    .burger-login-button .burger-icon{
+        width: 25px;
+        height: 2px;
+        top: 12px;
+    }
+    .burger-login-button .burger-icon:before{
+        width: 15px;
+        height: 2px;
+        top: -7px;
+        left: 0;
+    }
+    .burger-login-button .burger-icon:after{
+        width: 15px;
+        height: 2px;
+        top: 7px;
+        right: 0;
+    }
+    
+    .burger-login-button.toggle .burger-icon:before{
+        width: 25px;
+        height: 2px;
+    }
+    .burger-login-button.toggle .burger-icon:after{
+        width: 25px;
+        height: 2px;
+    }
+    
+    .all-navigation-sidebar{
+        max-width: 45%;
+        right: -45%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary{
+        width: 100%;
+        max-width: 78%;
+        height: auto;
+        float: left;
+        margin-left: 4%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary li{
+        list-style: none;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary a{
+        text-decoration: none;
+        color: #1a1a1a;
+        font-size: 18px;
+        display: flex;
+        padding: 16px 0px;
+        transition: 0.3s ease;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary a:hover{
+        color: #5047d1;
+        transition: 0.3s ease;
+    }
+    
+    .all-navigation-sidebar .navigation-bar-navbar-secondary{
+        width: 100%;
+        max-width: 77%;
+        height: auto;
+        float: left;
+        margin-left: 4%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary ul{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 70px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        font-size: 16px;
+        background: #ffffff;
+        border: 1px solid #1a1a1a;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .all-navigation-sidebar.active{
+        right: 0;
+        opacity: 1;
+        transition: 0.3s ease;
+    }
+    .top-header{
+        width: 100%;
+        height: 90px;
+    }
+
+
+
+    .form-super-container{
+        width: 100%;
+        height: auto;
+        padding: 60px 0px;
+    }
+    form{
+        width: 100%;
+        max-width: 390px;
+        height: 490px;
+        padding: 40px 0px;
+        border-radius: 6px;
+    }
+    .input-container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    .input-container #input-email{
+        margin-bottom: 30px;
+    }
+    .input-container h3{
+        font-size: 18px;
+    }
+
+
+
+    /*Footer styles*/
+    .login-footer-page{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: auto;
+    }
+    /*Footer end*/
+}
+
+
+@media screen and (min-width: 250px) and (max-width: 660px){
+    .header-login{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .gloabal-navigation-container{
+        width: 100%;
+        max-width: 90%;
+        height: 40px;
+    }
+    .gloabal-navigation-container .logo-nav-section{
+        width: 100%;
+        height: 40px;
+    }
+    .gloabal-navigation-container .logo-nav-section .isologo-svg-image{
+        width: 200px;
+        height: 40px;
+        background-size: 80%;
+    }
+    .burger-login-button{
+        position: absolute;
+        right: 5%;
+        width: 28px;
+        height: 28px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        z-index: 70;
+        cursor: pointer;
+    }
+    .burger-login-button .icon-container{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+    }
+    .burger-login-button .burger-icon{
+        width: 25px;
+        height: 2px;
+        top: 12px;
+    }
+    .burger-login-button .burger-icon:before{
+        width: 15px;
+        height: 2px;
+        top: -7px;
+        left: 0;
+    }
+    .burger-login-button .burger-icon:after{
+        width: 15px;
+        height: 2px;
+        top: 7px;
+        right: 0;
+    }
+    
+    .burger-login-button.toggle .burger-icon:before{
+        width: 25px;
+        height: 2px;
+    }
+    .burger-login-button.toggle .burger-icon:after{
+        width: 25px;
+        height: 2px;
+    }
+    
+    .all-navigation-sidebar{
+        max-width: 80%;
+        right: -80%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary{
+        width: 100%;
+        max-width: 84%;
+        height: auto;
+        float: left;
+        margin-left: 4%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary li{
+        list-style: none;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary a{
+        text-decoration: none;
+        color: #1a1a1a;
+        font-size: 18px;
+        display: flex;
+        padding: 16px 0px;
+        transition: 0.3s ease;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-primary a:hover{
+        color: #5047d1;
+        transition: 0.3s ease;
+    }
+    
+    .all-navigation-sidebar .navigation-bar-navbar-secondary{
+        width: 100%;
+        max-width: 84%;
+        height: auto;
+        float: left;
+        margin-left: 4%;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary ul{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 70px;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        font-size: 16px;
+        background: #ffffff;
+        border: 1px solid #1a1a1a;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .all-navigation-sidebar .navigation-bar-navbar-secondary button img{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .all-navigation-sidebar.active{
+        right: 0;
+        opacity: 1;
+        transition: 0.3s ease;
+    }
+    .top-header{
+        width: 100%;
+        height: 90px;
+    }
+    
+    
+    
+    .form-super-container{
+        width: 100%;
+        height: auto;
+        padding: 60px 0px;
+    }
+    form{
+        width: 100%;
+        max-width: 100%;
+        height: 490px;
+        padding: 40px 0px;
+        border-radius: 6px;
+        box-shadow: none;
+    }
+    .input-container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    .input-container #input-email{
+        margin-bottom: 30px;
+    }
+    .input-container h3{
+        font-size: 18px;
+    }
+    
+    .btn-section{
+        width: 85%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .submit-btn{
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+    }
+    .submit-btn:hover{
+        background: #5047d1;
+        transition: 0.3s ease;
+    }
+    
+    .go-create-account{
+        width: 90%;
+        height: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .go-create-account h4{
+        font-size: 17px;
+    }
+    .go-create-account a{
+        text-decoration: none;
+        color: #5d52f0;
+        transition: 0.3s ease;
+    }
+    .go-create-account a:hover{
+        color: #1a1a1a;
+        transition: 0.3s ease;
+    }
+    
+    
+    
+    /*Footer styles*/
+    .login-footer-page{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        bottom: auto;
+    }
+    .login-footer-page li{
+        list-style: none;
+    }
+    .login-footer-page h4{
+        color: #1a1a1a;
+        font-weight: 400;
+    }
+    /*Footer end*/
+}

@@ -1,0 +1,675 @@
+@media only screen and (min-width: 1280px) and (max-width: 1520px){
+    .super-container-float-section{
+        width: 100%;
+        height: 40px;
+        max-width: 90%;
+        display: flex;
+    }
+
+    .menu-header-container-image{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 70%;
+        background-size: cover;
+    }
+
+    .first-title-section .inside-title{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+    .hot-drinks-grid-section-super-container .drinks-container-grid{
+        max-width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .second-title-section .inside-title{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+    .cold-drinks-grid-super-container{
+        max-width: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+
+
+@media only screen and (min-width: 660px) and (max-width: 1280px){
+    header{
+        height: 60px;
+    }
+    .super-container-float-section{
+        width: 100%;
+        height: 40px;
+        max-width: 90%;
+        display: flex;
+    }
+    .super-container-float-section .logo-website-section{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .super-container-float-section .logo-website-section .svg-brand-website{
+        width: 140px;
+        height: 30px;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .logo-website-section .svg-brand-website:hover{
+        opacity: 0.5;
+        transition: 0.4s ease;
+    }
+
+    .super-container-float-section .burger-toggle-button{
+        width: 27px;
+        height: 26px;
+        display: block;
+        background: transparent;
+        position: absolute;
+        right: 5%;
+        border: none;
+        z-index: 8;
+        cursor: pointer;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close{
+        width: 27px;
+        height: 2px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close:before{
+        content: "";
+        width: 75%;
+        height: 2px;
+        position: absolute;
+        top: -7px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close:after{
+        content: "";
+        width: 55%;
+        height: 2px;
+        position: absolute;
+        top: 7px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    
+    .super-container-float-section .navigation-container-div{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 0%;
+        height: 100vh;
+        display: block;
+        background: #ffffff;
+        transition: 0.4s ease;
+        overflow: auto;
+        opacity: 0.2;
+    }
+    .navigation-container-div.active{
+        width: 40%;
+        transition: 0.3s ease;
+        opacity: 1;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a{
+        color: #1a1a1a;
+        padding: 15px 0px;
+        display: flex;
+        font-size: 18px;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list .active{
+        opacity: 1;
+        color: #73400d;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a:hover{
+        opacity: 1;
+        color: #73400d;
+    }
+
+    .navigation-container-div .navigation-bar-navbar-secondary{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list{
+        float: none;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a{
+        color: #1a1a1a;
+        padding: 15px 0px;
+        display: flex;
+        font-size: 18px;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a:hover{
+        opacity: 1;
+        color: #73400d;
+    }
+
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close{
+        background: transparent;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close:before{
+        top: 0;
+        width: 80%;
+        background: #1a1a1a;
+        transform: rotate(45deg);
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close:after{
+        top: 0;
+        width: 80%;
+        background: #1a1a1a;
+        transform: rotate(-45deg);
+        transition: 0.4s ease;
+    }
+
+    .responsive-social-bar-menu-navigation{
+        display: flex;
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .responsive-social-bar-menu-navigation ul{
+        display: flex;
+    }
+    .responsive-social-bar-menu-navigation li{
+        list-style: none;
+    }
+    .responsive-social-bar-menu-navigation a{
+        text-decoration: none;
+        font-size: 34px;
+        margin-right: 7px;
+        transition: 0.3s ease;
+    }
+    .responsive-social-bar-menu-navigation a:hover{
+        opacity: 0.4;
+        transition: 0.3s ease;
+    }
+
+
+
+    .menu-header-container-image{
+        width: 100%;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    .menu-header-container-image .bg-transparent-container{
+        width: 100%;
+        height: 290px;
+        position: absolute;
+        background: #0000007a;
+    }
+    .bg-transparent-container .bg-transparent-title{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        padding-top: 125px;
+    }
+    .bg-transparent-container .bg-transparent-title h1{
+        font-size: 37px;
+        color: #ffffff;
+    }
+
+    .first-title-section{
+        width: 100%;
+        height: 120px;
+    }
+    .first-title-section .inside-title{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+    .first-title-section .inside-title h1{
+        font-size: 30px;
+    }
+    .hot-drinks-grid-section-super-container .drinks-container-grid{
+        max-width: 90%;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .second-title-section{
+        width: 100%;
+        height: 120px;
+    }
+    .second-title-section .inside-title{
+        max-width: 90%;
+    }
+    .second-title-section .inside-title h1{
+        font-size: 30px;
+    }
+    .cold-drinks-grid-super-container{
+        max-width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+
+    footer{
+        width: 100%;
+        height: auto;
+        min-height: 410px;
+        position: absolute;
+        background: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .super-container-footer-items{
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        display: block;
+    }
+    .super-container-footer-items .lilian-coffee-icon-heart-svg-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    .super-container-footer-items .lilian-coffee-icon-heart-svg-section a{
+        width: 30px;
+        height: 30px;
+        background-image: url(../../brand-images/icon/svg/lilian-coffee-icon-white.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .super-container-footer-items .social-bar-link-items{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .super-container-footer-items .social-bar-link-items .footer-option-list a{
+        text-decoration: none;
+        font-size: 27px;
+        padding: 0px 18px;
+        transition: 0.4s ease;
+    }
+    
+    .super-container-footer-items .lilian-coffee-copyright-website{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .super-container-footer-items .lilian-coffee-copyright-website .footer-option-list h4{
+        font-size: 14px;
+    }
+    /*Footer end*/
+}
+@media only screen and (min-width: 250px) and (max-width: 660px){
+    header{
+        height: 60px;
+    }
+    .super-container-float-section{
+        width: 100%;
+        height: 40px;
+        max-width: 90%;
+        display: flex;
+    }
+    .super-container-float-section .logo-website-section{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .super-container-float-section .logo-website-section .svg-brand-website{
+        width: 140px;
+        height: 30px;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .logo-website-section .svg-brand-website:hover{
+        opacity: 0.5;
+        transition: 0.4s ease;
+    }
+
+    .super-container-float-section .burger-toggle-button{
+        width: 27px;
+        height: 26px;
+        display: block;
+        background: transparent;
+        position: absolute;
+        right: 5%;
+        border: none;
+        z-index: 8;
+        cursor: pointer;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close{
+        width: 27px;
+        height: 2px;
+        position: absolute;
+        top: 12px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close:before{
+        content: "";
+        width: 75%;
+        height: 2px;
+        position: absolute;
+        top: -7px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button .burger-icon-open-close:after{
+        content: "";
+        width: 55%;
+        height: 2px;
+        position: absolute;
+        top: 7px;
+        left: 0;
+        border-radius: 4px;
+        -webkit-background: #ffffff;
+        -ms-background: #ffffff;
+        -moz-background: #ffffff;
+        -o-background: #ffffff;
+        background: #ffffff;
+        transition: 0.4s ease;
+    }
+    
+    .super-container-float-section .navigation-container-div{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 0%;
+        height: 100vh;
+        display: block;
+        background: #ffffff;
+        transition: 0.4s ease;
+        overflow: auto;
+        opacity: 0.2;
+    }
+    .navigation-container-div.active{
+        width: 100%;
+        transition: 0.3s ease;
+        opacity: 1;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a{
+        color: #1a1a1a;
+        padding: 15px 0px;
+        display: flex;
+        font-size: 18px;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list .active{
+        opacity: 1;
+        color: #73400d;
+    }
+    .navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a:hover{
+        opacity: 1;
+        color: #73400d;
+    }
+
+    .navigation-container-div .navigation-bar-navbar-secondary{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+        margin-top: 50px;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list{
+        float: none;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a{
+        color: #1a1a1a;
+        padding: 15px 0px;
+        display: flex;
+        font-size: 18px;
+    }
+    .navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a:hover{
+        opacity: 1;
+        color: #73400d;
+    }
+
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close{
+        background: transparent;
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close:before{
+        top: 0;
+        width: 80%;
+        background: #1a1a1a;
+        transform: rotate(45deg);
+        transition: 0.4s ease;
+    }
+    .super-container-float-section .burger-toggle-button.toggle .burger-icon-open-close:after{
+        top: 0;
+        width: 80%;
+        background: #1a1a1a;
+        transform: rotate(-45deg);
+        transition: 0.4s ease;
+    }
+
+    .responsive-social-bar-menu-navigation{
+        display: flex;
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .responsive-social-bar-menu-navigation ul{
+        display: flex;
+    }
+    .responsive-social-bar-menu-navigation li{
+        list-style: none;
+    }
+    .responsive-social-bar-menu-navigation a{
+        text-decoration: none;
+        font-size: 34px;
+        margin-right: 7px;
+        transition: 0.3s ease;
+    }
+    .responsive-social-bar-menu-navigation a:hover{
+        opacity: 0.4;
+        transition: 0.3s ease;
+    }
+
+
+
+    .menu-header-container-image{
+        width: 100%;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    .menu-header-container-image .bg-transparent-container{
+        width: 100%;
+        height: 290px;
+        position: absolute;
+        background: #0000007a;
+    }
+    .bg-transparent-container .bg-transparent-title{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        padding-top: 125px;
+    }
+    .bg-transparent-container .bg-transparent-title h1{
+        font-size: 37px;
+        color: #ffffff;
+    }
+
+    .first-title-section{
+        width: 100%;
+        height: 120px;
+    }
+    .first-title-section .inside-title{
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+    }
+    .first-title-section .inside-title h1{
+        font-size: 30px;
+    }
+    .hot-drinks-grid-section-super-container .drinks-container-grid{
+        max-width: 90%;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    .second-title-section{
+        width: 100%;
+        height: 120px;
+    }
+    .second-title-section .inside-title{
+        max-width: 90%;
+    }
+    .second-title-section .inside-title h1{
+        font-size: 30px;
+    }
+    .cold-drinks-grid-super-container{
+        max-width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+
+
+    footer{
+        width: 100%;
+        height: auto;
+        min-height: 410px;
+        position: absolute;
+        background: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .super-container-footer-items{
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        display: block;
+    }
+    .super-container-footer-items .lilian-coffee-icon-heart-svg-section{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    .super-container-footer-items .lilian-coffee-icon-heart-svg-section a{
+        width: 30px;
+        height: 30px;
+        background-image: url(../../brand-images/icon/svg/lilian-coffee-icon-white.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .super-container-footer-items .social-bar-link-items{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .super-container-footer-items .social-bar-link-items .footer-option-list a{
+        text-decoration: none;
+        font-size: 27px;
+        padding: 0px 18px;
+        transition: 0.4s ease;
+    }
+    
+    .super-container-footer-items .lilian-coffee-copyright-website{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .super-container-footer-items .lilian-coffee-copyright-website .footer-option-list h4{
+        font-size: 14px;
+    }
+    /*Footer end*/
+}

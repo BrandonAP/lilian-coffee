@@ -1,0 +1,502 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////Lilian Coffee theme template made by Brandon A.P//////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css?family=Cambay|Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Cambay', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+    -webkit-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    overflow-x: hidden;
+}
+input, textarea{
+    font-family: 'Cambay', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+}
+
+/*Start navigation bar*/
+
+header{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.super-container-float-section{
+    width: 100%;
+    height: 40px;
+    max-width: 1560px;
+    display: flex;
+}
+.super-container-float-section .logo-website-section{
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.super-container-float-section .logo-website-section .svg-brand-website{
+    width: 180px;
+    height: 36px;
+    background-image: url(../../brand-images/logo/svg/lilian-coffee-logo-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.super-container-float-section .burger-toggle-button{
+    display: none;
+}
+
+.super-container-float-section .navigation-container-div{
+    width: 75%;
+    height: 40px;
+    display: flex;
+}
+.navigation-container-div .navigation-bar-navbar-primary{
+    width: 67%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list{
+    display: flex;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list li{
+    list-style: none;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 15px;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-primary .flex-block-nav-option-list a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+
+.navigation-container-div .navigation-bar-navbar-secondary{
+    width: 33%;
+    height: 40px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list{
+    float: right;
+    display: flex;
+    margin: 8px 0px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list li{
+    list-style: none;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 15px;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list a:hover{
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list .pd-l-null{
+    padding-left: 0px;
+}
+.navigation-container-div .navigation-bar-navbar-secondary .flex-block-nav-option-list .pd-r-null{
+    padding-right: 0px;
+}
+
+.responsive-social-bar-menu-navigation{
+    display: none;
+}
+
+/*Navigation end*/
+
+
+.menu-header-container-image{
+    width: 100%;
+    height: 590px;
+    background-image: url(../menu-images/menu/illumination-731494_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu-header-container-image .bg-transparent-container{
+    width: 100%;
+    height: 590px;
+    position: absolute;
+    background: #0000007a;
+}
+.bg-transparent-container .bg-transparent-title{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 280px;
+}
+.bg-transparent-container .bg-transparent-title h1{
+    font-size: 58px;
+    color: #ffffff;
+}
+
+
+.first-title{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-title .inside-first-title{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+}
+.first-title h1{
+    font-size: 44px;
+}
+
+.first-menu-section-breakfasts{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+    min-height: 980px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*.first-menu-section-breakfasts .breakfasts-section-element{
+    background: #1f1f1f;
+}*/
+.first-menu-section-breakfasts .breakfasts-section-element .breakfast-info-content-first{
+    width: 100%;
+    height: 410px;
+}
+.first-menu-section-breakfasts .breakfasts-section-element .breakfast-info-content-first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.first-menu-section-breakfasts .breakfasts-section-element .breakfast-info-content-second{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-menu-section-breakfasts .breakfasts-section-element .breakfast-info-content-second h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.see-more-breakfasts-section{
+    width: 100%;
+    max-width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-more-breakfasts-section a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+    width: 200px;
+    height: 52px;
+    border: 1px solid #73400d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.see-more-breakfasts-section a:hover{
+    color: #ffffff;
+    border: 1px solid #73400d;
+    background: #73400d;
+    transition: 0.2s ease;
+}
+
+
+.second-title{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    margin-top: 160px;
+}
+.second-title .inside-second-title{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+}
+.second-title h1{
+    font-size: 44px;
+    color: #ffffff;
+}
+.second-menu-section-drinks{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 160px;
+    background: #1a1a1a;
+}
+.second-menu-section-drinks .drinks-section-super-container{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+    min-height: 980px;
+    margin: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*.second-menu-section-drinks .drinks-section-super-container .drinks-section-element{
+    background: #ffffff;
+}*/
+.drinks-section-super-container .drinks-section-element .drink-info-content-first{
+    width: 100%;
+    height: 410px;
+}
+.drinks-section-super-container .drinks-section-element .drink-info-content-first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.drinks-section-super-container .drinks-section-element .drink-info-content-second{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drinks-section-super-container .drinks-section-element .drink-info-content-second h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.see-more-drinks-section{
+    width: 100%;
+    max-width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-more-drinks-section a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+    width: 200px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.see-more-drinks-section a:hover{
+    color: #1a1a1a;
+    border: 1px solid #dfdfdf;
+    background: #dfdfdf;
+    transition: 0.2s ease;
+}
+
+
+.third-title{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-title .inside-third-title{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+}
+.third-title h1{
+    font-size: 44px;
+}
+.third-menu-section-desserts{
+    width: 100%;
+    height: auto;
+    max-width: 1560px;
+    min-height: 980px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.third-menu-section-desserts .desserts-section-element .desserts-info-content-first{
+    width: 100%;
+    height: 410px;
+}
+.third-menu-section-desserts .desserts-section-element .desserts-info-content-first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.third-menu-section-desserts .desserts-section-element .desserts-info-content-second{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-menu-section-desserts .desserts-section-element .desserts-info-content-second h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.see-more-desserts-section{
+    width: 100%;
+    max-width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+.see-more-desserts-section a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+    width: 200px;
+    height: 52px;
+    border: 1px solid #73400d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.see-more-desserts-section a:hover{
+    color: #ffffff;
+    border: 1px solid #73400d;
+    background: #73400d;
+    transition: 0.2s ease;
+}
+
+
+
+
+/*Footer start styles*/
+
+footer{
+    width: 100%;
+    height: auto;
+    min-height: 410px;
+    position: absolute;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super-container-footer-items{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    display: block;
+}
+.super-container-footer-items .lilian-coffee-icon-heart-svg-section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.super-container-footer-items .lilian-coffee-icon-heart-svg-section a{
+    width: 50px;
+    height: 50px;
+    background-image: url(../../brand-images/icon/svg/lilian-coffee-icon-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.super-container-footer-items .social-bar-link-items{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list{
+    display: flex;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list li{
+    list-style: none;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list a{
+    text-decoration: none;
+    font-size: 40px;
+    padding: 0px 22px;
+    transition: 0.4s ease;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list .pd-l-null{
+    padding-left: 0px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list .pd-r-null{
+    padding-right: 0px;
+}
+.super-container-footer-items .social-bar-link-items .footer-option-list a:hover{
+    opacity: 0.4;
+    transition: 0.4s ease;
+}
+
+.super-container-footer-items .lilian-coffee-copyright-website{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.super-container-footer-items .lilian-coffee-copyright-website .footer-option-list li{
+    list-style: none;
+}
+.super-container-footer-items .lilian-coffee-copyright-website .footer-option-list h4{
+    color: #ffffff;
+    font-weight: 100;
+    cursor: default;
+}
+
+/*Footer end*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////Copyright 2020 Brandon A.P. Todos los derechos reservados////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
